@@ -1,0 +1,4 @@
+CPAN_AUTHOR=bdfoy
+inherit perl
+
+PATCH_URI="1.22-man3pods.patch"

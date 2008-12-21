@@ -1,0 +1,11 @@
+--- origsrc/Test-Manifest-1.22/Makefile.PL	2007-10-27 21:23:35.000000000 -0500
++++ src/Test-Manifest-1.22/Makefile.PL	2008-12-21 02:20:06.069301400 -0600
+@@ -23,7 +23,7 @@
+ 	  
+ 	'MAN3PODS' =>
+ 		{
+-		'lib/Manifest.pm' => '$(INST_MAN3DIR)/Test::Manifest.3',
++		'lib/Manifest.pm' => '$(INST_MAN3DIR)/Test.Manifest.3',
+ 		},
+ 		
+ 	clean => { FILES => 'Test-Manifest-* t/test_manifest' },
